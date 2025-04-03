@@ -612,6 +612,9 @@ hr {
     }
 
     /* Hero Section */
+     .hero-content{
+        height: auto;
+    }
     .hero-content h1 {
         font-size: 35px;
         width: 100%;
