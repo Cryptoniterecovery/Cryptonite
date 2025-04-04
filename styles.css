@@ -1,6 +1,6 @@
 /* 1. Global Styles */
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
 }
@@ -116,7 +116,7 @@ button:hover {
 
 .numbers-image {
     width: 50%;
-    height: auto;
+    height: 90vh;
     display: block;
     background-image: url('keyboard.png');
     background-attachment: fixed;
@@ -399,25 +399,6 @@ btn2:hover {
     width: 90%;
     margin-top: 60px;
 }
- /* {
-    display: flex;
-    gap: 200px;
-    padding: 30px 0%;
- }
- .padlock{
-    width: 50%;
-    background-image: url('padlock.png');
-    background-attachment: fixed;
-  
-    background-size: cover;
-   
- }
- .padlock-text{
-    width: 50%;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 40px;
- } */
  .feedBack-sec{
 
  }
@@ -612,7 +593,7 @@ hr {
     }
 
     /* Hero Section */
-     .hero-content{
+    .hero-content{
         height: auto;
     }
     .hero-content h1 {
@@ -636,24 +617,45 @@ hr {
     .container {
         padding: 20px;
     }
-
-    .numbers, .experience, .Services, .arttry, .real-time, .comply, .padlock-sec, .security {
+    .numbers{
         flex-direction: column;
         gap: 50px;
         align-items: center;
-        width: 90%;
+        width: 100%;
+    }
+
+    .experience, .Services, .arttry, .real-time, .comply, .padlock-sec, .security {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        width: 70%;
     }
 
     .stickyBox{
         width: 95%;
+        height: auto;
     }
     .stat-box{
         width: 99%;
+    }
+    .text-box, .experience-box, .real-timeBox, .padlock-text, .code-text{
+        width: 90%;
+        height: auto;
+        line-height: 35px;
+    }
+    .text-box > h2, .experience-box > h2, .real-timeBox > h2, .padlock-text > h2, .code-text > h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .text-box > h4, .experience-box > h4, .real-timeBox > p, .padlock-text > p, .code-text > p{
+        width: 100%;
+        font-size: 20px;
     }
 
     .numbers-image, .key-arttry, .inoElement, .real-timeimg, .comply-Box, .padlock, .code-img {
         width: 90%;
         text-align: center;
+        height: auto;
     }
 
     /* Contact Section */
@@ -707,48 +709,3 @@ hr {
 
 
 
-/* 5. Responsive Design
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-        /* text-align: center;
-        padding-top: 10px; */
-    /* }
-    .hero-content > h1 {
-        font-size: 50px;
-        width: 100%;
-    }
-
-    .hero-content > p {
-        width: 90%;
-        font-size: 18px;
-    }
-
-    button {
-        width: 100%;
-        max-width: 250px;
-    }
-    .container{
-        /* flex-wrap: wrap; */
-    } */
-    /* .content, .stats  {
-        flex-direction: column;
-        align-items: center;
-    }
-    .numbers{
-        flex-wrap: wrap-reverse;
-    }
-    
-    .text-box, .stat-box {
-        width: 90%;
-    }
-    .server-image{
-        width: 100%;
-    } */
-} */
