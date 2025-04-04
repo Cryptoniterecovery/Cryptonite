@@ -658,7 +658,12 @@ hr {
         text-align: center;
         height: auto;
     }
-
+    .key-arttry{
+        font-size: 30px;
+    }
+    .attributes{
+        width: 100%;
+    }
     /* Contact Section */
     .contact-container {
         flex-direction: column;
